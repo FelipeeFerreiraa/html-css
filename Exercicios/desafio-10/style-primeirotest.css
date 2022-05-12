@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url('desafio-10/fontes/idroid.otf')
+        format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sacramento&family=Tapestry&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #84E1AD;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom,#3CD983 , #1A5C38 );
+    margin: 0px;
+    padding: 20px 20px 0px 20px;
+}
+
+h1{
+    font-family: 'Bebas Neue'; 
+}
+
+p{
+    text-indent: 20px;
+    font-family: 'Bebas Neue';
+}
+
+ a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-weight: bold;
+}
+header > h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+nav  li{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px;
+    text-align: left;
+}
+
+h2{
+    font-family: 'droid' Arial, Helvetica, sans-serif;
+    color: #1A5C38;
+}
+
+article{
+    margin: 10px;
+}
+
+
+main{
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+footer{
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+
+}

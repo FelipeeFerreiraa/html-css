@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+    <link rel="shortcut icon" href="../desafio-2/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente optio cum suscipit aut hic magnam voluptate. Hic non neque sapiente, porro dicta fugit commodi, voluptatibus illo et sequi, laborum placeat!</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens-mulher-pmg/paisagem-p.png" type="image/png">
+
+        <source media="(max-width: 1200px)" srcset="imagens-mulher-pmg/paisagem-m.png" type="image/png">
+
+        <!-- mude o max-width de forma q elimine a scrollBar no navegador -->
+
+        <img src="imagens-mulher-pmg/paisagem-g.png">
+    </picture>
+
+
+
+</body>
+
+</html>

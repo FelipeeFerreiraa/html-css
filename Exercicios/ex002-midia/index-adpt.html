@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat culpa commodi, voluptates mollitia libero
+        deserunt consequatur perspiciatis distinctio in at dolorum quam corporis suscipit sunt repudiandae unde illum
+        officia architecto?</p>
+
+    <picture>
+        <source media="(max-width: 250px)" srcset="imagens/foto-200.JPG" type="image/JPG">
+
+        <source media="(max-width: 500px)" srcset="imagens/foto-450.JPG" type="image/JPG">
+
+        <source media="(max-width: 650px)" srcset="imagens/foto-600.JPG" type="image/JPG">
+
+        <source media="(max-width: 850px)" srcset="imagens/foto-800.JPG" type="image/JPG">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-1000.JPG" type="image/JPG">
+
+        <img src="imagens/foto-1200.JPG" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem, dolor, accusamus cum magni a quos commodi
+        optio nihil ipsum odit iusto unde illum! Et enim temporibus quod dicta natus?</p>
+
+    <audio preload="metadata" controls loop>
+        <source src="musica-youtube-studio.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador nao abriu o audio seu animal arruma outro pc . <a
+                href="musica-youtube-studio.mp3">ou tente o link</a></p>
+    </audio>
+
+    <h1>Colocando videos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error nobis delectus sint molestias labore
+        laborum repudiandae at animi omnis veritatis vel, qui architecto, adipisci iure accusamus repellat. Voluptates,
+        repudiandae.</p>
+
+    <video width="560px" poster="foto-lemon-thumb500.jpg" loop controls>
+        <source src="lemon-video.mp4" type="vidoe/mp4">
+        <source src="lemon-video.m4v" type="vidoe/mp4">
+        <source src="lemon-video.ogv" type="video/webm">
+        <source src="lemon-video.webm" type="video/ogg">
+        <p>OOOOÔ SEU ANIMAL SEU PC NAO RODA NEM FORMATO DE VIDEO, COMPRA OUTRO.</p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do youtube fightAnimation</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PYbILcvP6O0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>

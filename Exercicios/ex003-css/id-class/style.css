@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+
+        # para id 
+        . para class
+        pode se usar tbm
+        principal {}  (sem a parte do html h1)
+
+ */
+body{
+    background-color: #60be66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #4df780;
+}
+h1#principal{    
+    text-align: center;
+    background-color: #1B4527;
+    color: white;
+}
+h2{
+    color:#1B4527;
+}
+.basico{
+    color: #1B4527;
+    
+
+}
+.intermediario{
+    color: rgba(148, 148, 50, 0.966);
+   
+
+}
+.avancado{
+    color: rgb(165, 45, 45);
+}
+.subtitulo{
+    background-color: #1b45274d;
+}
