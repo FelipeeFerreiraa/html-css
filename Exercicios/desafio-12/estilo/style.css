@@ -6,7 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Squada+One&family=Sriracha&display=swap');
 
-
+:root {
+    --fonte1: Verdana, Arial, sans-serif;
+    --fonte2: 'Passion One';
+    --fonte3: 'Sriracha'
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -14,22 +18,27 @@
 body {
     background-color: darkgrey;
     min-height: 100vh;
+    font-family: var(--fonte1);
 }
 
 
 header {
     background-color: black;
     color: white;
-    font-family: "Passion One" ;
+    
     font-weight: 400;
     
     text-align: center;
     margin: 0px;
+
+    
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 
 }
 
@@ -48,26 +57,52 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    font-family: "Sriracha";
-}
 
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 40px;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;  /*  vw  ( largura da view port)
+                           vh  ( altura da view port) 
+         */
+
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 .imagem {
     background-color: rgb(43, 41, 41);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.253);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 15px;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+#img1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+
+}
+
+#img2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    
+
 }
 
 .normal {
